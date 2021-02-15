@@ -1,0 +1,172 @@
+<html>
+
+<body>
+    <p id="p0">
+        Problem 0: We use a "let" statement to...
+        <script>
+            let x = 100;
+        </script>
+    </p>
+
+    <p id="p1">
+        <b>Problem 1: Identify the marks used and visual channels </b>
+    <ul>
+        <li>1A) </li>
+        <p> The marks used are the square areas of individual county lines on a US map. The visual channels are the different Color Hues of the counties. </p>
+        <li>1B) </li>
+        <p> The marks used are the light blue rectangles. The visual channels are vertical aligned length of the blue rectangles which span along the y axis labeled count, and the horizontal aligned position of the rectangles on the x axis labeled V1.</p>
+        <li>1C) </li> 
+        <p> The marks used are semitransparent dots. The visual channels are Color Hue as each different book is encoded with a unique color, horizonal aligned position on the x axis which corresponds with the word position in all the books, vertical aligned position which corresponds to which spell was used.  </p> 
+    </ul>
+    </p>
+
+    <p id="p2">
+        <b>Problem 2: For each of the following items in the list,</b>
+    <ul>
+        <li> <b>a) number </b>
+            <p>canonical Javascript type: YES</p>
+            <p> example:
+                <script>
+                    console.log(typeof(1));
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: None</p>
+        </li>
+
+        <li> <b>b) int </b>
+            <p>canonical Javascript type: NO</p>
+            <p> example:
+                <script>
+
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: None</p>
+        </li>
+
+        <li> <b>c) unicode </b>
+            <p>canonical Javascript type: No</p>
+            <p> example:
+                <script>
+                
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: returns and treats unicode as a string</p>
+        </li>
+
+        <li> <b>d) array </b>
+            <p>canonical Javascript type: NO</p>
+            <p> example:
+                <script>
+
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: treats an array ex. [1,2,3] as an object. Has length property</p>
+        </li>
+
+        <li> <b>e) char </b>
+            <p>canonical Javascript type: NO</p>
+            <p> example:
+                <script>
+
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: will treat a char like 'a' as a string type in javascript</p>
+        </li>
+
+        <li> <b>f) class </b>
+            <p>canonical Javascript type: NO</p>
+            <p> example:
+                <script>
+
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: Treats classes like objects in javascript</p>
+        </li>
+
+        <li> <b>g) regex </b>
+            <p>canonical Javascript type: NO</p>
+            <p> example:
+                <script>
+
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: treats regex as a object</p>
+        </li>
+
+        <li> <b>h) string </b>
+            <p>canonical Javascript type: YES</p>
+            <p> example:
+                <script>
+                    console.log(typeof("hi there"));
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: No </p>
+        </li>
+
+        <li> <b>i) boolean </b>
+            <p>canonical Javascript type: YES</p>
+            <p> example:
+                <script>
+                    console.log(typeof(true));
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: No </p>
+        </li>
+
+        <li> <b>j) object </b>
+            <p>canonical Javascript type: yes</p>
+            <p> example:
+                <script>
+                    console.log(typeof(new Object()));
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: Objects are actually dictionaries in javascript even though it prints out object</p>
+        </li>
+
+        <li> <b>k) null </b>
+            <p>canonical Javascript type: YES</p>
+            <p> example:
+                <script>
+                    console.log(typeof(null));
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: returns object due to legacy reasons even though it is null</p>
+        </li>
+
+        <li> <b>l) function </b>
+            <p>canonical Javascript type: YES</p>
+            <p> example:
+                <script>
+                    console.log(typeof(function(x) {} ));
+                </script> 
+            </p>  
+            <p>any unusual typeof() behavior: functions are objects even though typeof prints out function as its type </p>
+        </li>
+    </ul>
+    </p>
+
+    <p id="p3">
+        <b>Problem 3: define type coercion, provide 2 examples, explain each</b>
+        Type coersion happens when javascript encounters 2 things that are presented to it that are dissimilar, for example comparing two different types. Since Javascript doesn't like throwing errors, javascript casts (turns) things into other types in order to keep things running.
+        
+        <ul>
+            <li>console.log(73+"Caitlin") is an example where trying to concatenate a number and string would result in a type error in python. But in javascript, it results in 73Caitlin.</li>
+            <li>console.log(1=="1") Normally in python this would return false since a number and a string don't have the same value. However, due to the casting in type coersion, it returns true in javascript </li>
+        </ul>
+        <script>
+            console.log(73+"Caitlin");
+            console.log(1 == "1");
+        </script>
+    </p>
+
+    <p id="p4">
+        <b>Problem 4: Describe course policy on late and unreadable work in syllabus</b>
+        <ul>
+            <li>All of the late work that a student turns in will receive a 0. There are no exceptions. Students have 5 slip late days for a semester. Unreadable work will also receive a 0 including files that are corrupted or missing in your submission.  </li>
+        </ul>
+        <script>
+        </script>
+    </p>
+</body>
+
+</html>
